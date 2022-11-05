@@ -1,0 +1,10 @@
+#menu li{
+    float: right;
+    list-style-type: none;
+}
+#choice li{
+    float: center;
+}
+#menu a{
+    text-decoration: none;
+}
