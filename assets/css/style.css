@@ -1,23 +1,23 @@
-header{
-    color: rgb(168, 125, 50);
+body{
+    font-family: 'Rubik', 'Arial Narrow', Arial, sans-serif;
+
 }
 #home{
     margin-left: 50px;
     float: left;
     font-size: 60px;
     margin-top: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: rgb(168, 125, 50);
 }
 #choice{
-    font-size: 150%;
+    text-decoration: dashed;
     float: left;
-    margin:40px 100px 0 100px;
+    margin:40% 5% 0 5%;
 }
-#menu{
-    font-size: 150%;
-}
-#menu li{
 
+#menu li{
+    font-size: 150%;
     float: right;
     list-style-type:none;
     margin-top: 40px;
@@ -33,14 +33,38 @@ header{
    
     border: none;
 }
+#image-outer{
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 #main-image{
     float: right;
-    height: 200px;
+    height: 400px;
 
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+#head-text-shape{
+    
+    width: relative;
+    height: relative;
+    -webkit-text-stroke: 2px #000000;
+    
+    bottom: 5%;
+    right: 10%;
+    top: 5%;
+    position: absolute;
+   
+   
+    background-color: rgba(245, 232, 206, .5);
+}
 #head-text{
-    padding-top: 400px;
+    letter-spacing: 2px;
+    
+    font-size: 100%;
+    color: rgb(168, 125, 50);
+
 }
