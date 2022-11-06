@@ -1,10 +1,17 @@
+header{
+    color: rgb(168, 125, 50);
+}
 #home{
     margin-left: 50px;
     float: left;
+    font-size: 60px;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #choice{
     font-size: 150%;
-    
+    float: left;
+    margin:40px 100px 0 100px;
 }
 #menu{
     font-size: 150%;
@@ -13,22 +20,27 @@
 
     float: right;
     list-style-type:none;
-    margin-right: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
-#choice li{
-    margin-left: 50px;
-    float: left;
-    list-style-type: none;
-}
+
 #menu a{
     text-decoration: none;
 }
-#choice a{
-    text-decoration: none;
-}
+
 #menu, #choice, #home{
     line-height: 75px;
-    margin: 0;
-    padding: 0;
+   
     border: none;
+}
+#main-image{
+    float: right;
+    height: 200px;
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#head-text{
+    padding-top: 400px;
 }
