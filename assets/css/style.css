@@ -78,3 +78,16 @@ div > h2{
 #contact{
     height: 800px;
 }
+#what-we-do{
+    height: 500px;
+}
+
+.what-group{
+width: 33%;
+}
+.what-guide{
+width: 33%;
+}
+.what-material{
+width: 33%;
+}
