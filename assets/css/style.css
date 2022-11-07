@@ -44,27 +44,37 @@ body{
     height: 400px;
 
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
 }
 #head-text-shape{
     
     width: relative;
     height: relative;
-    -webkit-text-stroke: 2px #000000;
+    -webkit-text-stroke: 1px #000000;
     
     bottom: 5%;
     right: 10%;
     top: 5%;
     position: absolute;
-   
-   
-    background-color: rgba(245, 232, 206, .5);
+    overflow: inherit;
+    
+    
+    background-color: rgba(245, 232, 206, .6);
 }
-#head-text{
+div > h2{
     letter-spacing: 2px;
     
-    font-size: 100%;
+    font-size: 35px;
     color: rgb(168, 125, 50);
 
+}
+#sign-up{
+    height: 800px;
+}
+#volunteer{
+    height: 800px;
+}
+#contact{
+    height: 800px;
 }
