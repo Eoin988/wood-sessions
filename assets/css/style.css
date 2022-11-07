@@ -79,15 +79,66 @@ div > h2{
     height: 800px;
 }
 #what-we-do{
-    height: 500px;
+    height: 600px;
+    text-align: center;
+    width: 100%;
 }
 
-.what-group{
-width: 33%;
+#what-group{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    width: 32%;
+    float: left;
+    margin: auto;
 }
-.what-guide{
-width: 33%;
+#what-guide{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    width: 32%;
+    margin: auto;
 }
-.what-material{
-width: 33%;
+#what-material{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    width: 32%;
+    float: right;
+    margin: auto;
+    
+}
+
+.what-group-heading{
+    width: 60%;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+   
+
+}
+.what-guide-heading{
+    width: 60%;
+    line-height: 30px;
+    text-align: center;
+    clear: both;
+    
+}
+.what-material-heading{
+    clear: both;
+    
+    width: 60%;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+   
+}
+.what-group-heading .what-guide-heading .what-material-heading{
+    line-height: 30px;
+    text-align: center;
+    font-size: 80px;
+    clear: both;
+    border: 1px solid black;
+    border-radius: 20px;
+    
 }
