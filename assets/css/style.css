@@ -85,6 +85,9 @@ div > h2{
     width: 100%;
 }
 
+#what-we-do > div{
+    display: inline-block;
+}
 #what-group{
     text-align: center;
     border: 0px solid black;
@@ -129,6 +132,7 @@ div > h2{
     clear: both;
     margin-bottom: 50px;
 }
-div{
-    display: inline-block;
+
+form > div{
+    display: block;
 }
