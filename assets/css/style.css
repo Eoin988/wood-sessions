@@ -133,6 +133,13 @@ div > h2{
     margin-bottom: 50px;
 }
 
-form > div{
-    display: block;
+#signup{
+    
+    line-height: 20px;
+    padding-left: 10px;
+    width: 100px;
+}
+
+#signup > div{
+    display: inline-block;
 }

@@ -31,19 +31,15 @@
     </header>
     
     <section id="image-outer">
-        
-        
         <img id="main-image" src="/assets/img/bark-1551233_960_720.jpg" alt="Wood Working Scene">
         <div id="head-text-shape">
             <h2>Join us in our bi weekly</h2>
             <h2>Woodworking Hobby Club.</h2>
             <h2>Or book a private slot for solo work.</h2>
-
         </div>
-       
-
-
     </section>
+
+
 
     <section id="what-we-do">
         <h3>What We Do</h3>
@@ -51,59 +47,64 @@
         <div id="what-group">
         <div class="what-group-heading">
             <h4>Group Colabs <i class="fa-solid fa-people-group"></i></h4>
-            
             <p>We create groups of people with varying levels of skill to share and colaborate on projects.</p>
-        
         </div>
         </div>
     
-
         <div id="what-guide">
         <div class="what-guide-heading">
         <h4 >Guidance <i class="fa-solid fa-signs-post"></i></h4>
-        
         <p>We provide plans and assitance to create projects</p>
-       
         </div>
         </div>
 
         <div id="what-material">
         <div class="what-material-heading">
         <h4>Material and Storage <i class="fa-solid fa-box"></i></h4>
-        
         <p>We provide all materials and tools. Along with secure storage.</p>
-        
         </div>
         </div>
-
-
     </section>
     
     <section id="signup">
         <form method="post" action="https://formdump.codeinstitute.net/">
+            <fieldset>
+                <legend>User Details</legend>
             <div>
             <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="email-add">
-        </div>
-        <div>
+            <input type="text" id="first-name" name="first-name" required>
+        
             <label for="surname">Surname</label>
-            <input type="text" id="surname">
-        </div>
-        <div>
+            <input type="text" id="surname" name="surname" required>
+       
             <label for="email">Email</label>
-            <input id="email" type="email">
+            <input type="email" name="user-email" required>
         </div>
+    </fieldset>
+       
+        <fieldset>
+            <legend>Slot Type</legend>
         <div>
             <label for="solo-radio">Solo</label>
-            <input id="solo-radio" type="radio">
+            <input id="solo-radio" type="radio" name="radio">
             <label for="group-radio">Group</label>
-            <input id="group-radio" type="radio">
+            <input id="group-radio" type="radio" name="radio">
             <label for="both-radio">Both</label>
-            <input id="both-radio" type="radio">
+            <input id="both-radio" type="radio" name="radio">
         </div>
+    </fieldset>
+
+        <fieldset>
+            <legend>Time Slot</legend>
         <div>
-            <input type="submit">
+            <label for="select-time"> Select a suitable time:</label>
+            <input type="datetime-local" id="select-time" name="select-time" value="2022-09-11T20:00" required>
         </div>
+        
+        <div>
+            <input type="submit" value="Get Crafting!">
+        </div>
+    </fieldset>
            
         </form>
        
