@@ -52,7 +52,7 @@ body{
     width: relative;
     height: relative;
     -webkit-text-stroke: 1px #000000;
-    
+    padding: 0 50px 0 50px;
     bottom: 5%;
     right: 10%;
     top: 5%;
@@ -143,18 +143,13 @@ div > h2{
 #signup > div{
     display: inline-block;
 }
-#solo-main-image{
-    height: 600px;
-    width: 100%;
-    overflow: visible;
-    position: relative;
-}
-#group-main-image{
+
+#tab-main-image{
     float: left;
-    height: 1000px;
+    height: 800px;
     width: 50%;  
 }
-#group-head-text-shape{
+#tab-head-text-shape{
     float: right;
     overflow-wrap: normal;
     width: 40%;
@@ -163,11 +158,12 @@ div > h2{
     bottom: 40%;
     top: 40%;
     overflow: inherit;
+    padding:0 50px 0 50px;
     
     
     background-color: rgba(245, 232, 206, .6);
 }
-#group-image-outer{
+#tab-image-outer{
     display: block;
     width: 100%;
     overflow: hidden;
