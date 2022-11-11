@@ -16,12 +16,23 @@ body{
     margin:40% 5% 0 5%;
 }
 
+.active{
+    border-bottom: 1px solid black;
+}
+
 #menu li{
     font-size: 150%;
     float: right;
     list-style-type:none;
     margin-top: 40px;
     margin-left: 20px;
+}
+#menu a:hover {
+    border-bottom: 1px solid black;
+}
+
+#home:hover {
+    border-bottom: 1px solid  rgb(168, 125, 50);
 }
 
 #menu a{
