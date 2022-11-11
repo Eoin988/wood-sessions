@@ -98,7 +98,7 @@ div > h2{
 }
 
 .what-group-heading{
-    width: 100%;
+    width: 90%;
     line-height: 30px;
 }
 
@@ -112,7 +112,7 @@ div > h2{
 }
 
 .what-guide-heading{
-    width: 100%;
+    width: 90%;
     line-height: 30px;
 }
 
@@ -127,7 +127,7 @@ div > h2{
 
 .what-material-heading{
     
-    width: 100%;
+    width: 90%;
     line-height: 30px;
     clear: both;
     margin-bottom: 50px;
@@ -146,7 +146,7 @@ div > h2{
 
 #tab-main-image{
     float: left;
-    height: 800px;
+    height: 700px;
     width: 50%;  
 }
 #tab-head-text-shape{
