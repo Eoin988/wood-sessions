@@ -87,7 +87,7 @@ div > h2{
     height: 800px;
 }
 #contact{
-    height: 800px;
+    height: 80px;
 }
 #what-we-do{
     padding-top: 40px;
@@ -153,6 +153,11 @@ div > h2{
 
 #signup > div{
     display: inline-block;
+}
+
+#checkbox{
+    
+    display: inline;
 }
 
 #tab-main-image{
