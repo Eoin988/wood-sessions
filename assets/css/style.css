@@ -84,10 +84,13 @@ div > h2{
     height: 800px;
 }
 #volunteer{
-    height: 800px;
+    width: 100%;
+    text-align: center;
+    height: relative;
 }
 #contact{
-    height: 80px;
+    padding-top: 5%;
+    height: relative;
 }
 #what-we-do{
     padding-top: 40px;
