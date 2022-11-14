@@ -81,21 +81,18 @@ div > h2{
 
 }
 #sign-up{
-    height: 800px;
+    min-height: 800px;
+    background-color: rgb(245, 232, 206);
+    
 }
 #free-solo{
-    height: 250px;
-    background-color: blanchedalmond;
-    overflow-y: scroll;
+    display: block;
+    overflow: auto;
+    min-height: 250px;
+    background-color: rgb(245, 232, 206);
+    margin: auto;
 }
-#free-solo > h3{
-    margin: 50px 0 50px 0;
-    letter-spacing: 2px;
-   font-size: 50px;
-    width: 50%;
-    float:left;
-    text-align: center;   
-}
+
 
 #free-solo > p{
     font-size: larger;
@@ -106,21 +103,29 @@ div > h2{
     height: inherit;
 }
 #contact{
-    font-size: 40px;
-    background-color: rgb(245, 232, 206);
- 
-    height: relative;
+    display: block;
+    overflow: auto;
+    min-height: 300px;
+    font-size: larger;
+    width: 100%;
+    background-color: #feebca;  
 }
 
-#what-we-do > h2{
-    font-size: 40px;
+ h3{
+    font-size: 50px;
 }
+
+
 #what-we-do{
+    display: block;
+    overflow: auto;
     padding-top: 40px;
-    height: 300px;
+    min-height: 300px;
     text-align: center;
     width: 100%;
+    background-color: #feebca;
 }
+
 
 #what-we-do > div{
     display: inline-block;
@@ -214,4 +219,9 @@ div > h2{
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+form > fieldset{
+    background-color: #feebca;
+   
 }
