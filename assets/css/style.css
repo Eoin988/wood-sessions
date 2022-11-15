@@ -9,7 +9,11 @@ h1{
     font-size: 60px;
 }
 h2{
+    -webkit-text-fill-color: rgb(175, 138, 68);
+    -webkit-text-stroke: 0.5px #000000;
     font-size: 55px;
+    letter-spacing: 2px;
+    font-size: 50px;
 }
 h3{
     font-size: 45px;
@@ -76,7 +80,7 @@ h3{
     
     width: relative;
     height: relative;
-    -webkit-text-stroke: 0.5px #000000;
+    
     padding: 0 50px 0 50px;
     bottom: 5%;
     right: 10%;
@@ -87,34 +91,37 @@ h3{
     
     background-color: rgba(245, 232, 206, .6);
 }
-div > h2{
-    letter-spacing: 2px;
-    
-    font-size: 50px;
-    color: rgb(168, 125, 50);
-
-}
-
 /**************************************** Free ********************************************/
 #free-solo{
-    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
     overflow: auto;
     min-height: 250px;
     background-color: rgb(245, 232, 206);
     margin: auto;
 }
 
+#free-solo > h3{
+    padding-left: 10%;
+}
 
 #free-solo > p{
-    font-size: larger;
+    font-style: italic;
+    padding-left: 10%;
+    font-size: 20px;
     width: 50%;
     float: right;
     text-align: center; 
     margin: 50px 0 50px 0;
     height: inherit;
 }
+
+
 /**************************************** What we do ********************************************/
 #what-we-do{
+    flex-wrap: wrap;
     display: block;
     overflow: auto;
     padding-top: 40px;
