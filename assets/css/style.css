@@ -10,7 +10,7 @@ body{
     
     color: rgb(168, 125, 50);
 }
-#choice{
+.choice{
     text-decoration: dashed;
     float: left;
     margin:40% 5% 0 5%;
@@ -224,4 +224,18 @@ div > h2{
 form > fieldset{
     background-color: #feebca;
    
+}
+
+.social-networks{
+    text-align: center;
+}
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 106%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
