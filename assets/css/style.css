@@ -2,6 +2,18 @@ body{
     font-family: 'Rubik', 'Arial Narrow', Arial, sans-serif;
 
 }
+p{
+    font-weight: bold;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 55px;
+}
+h3{
+    font-size: 45px;
+}
 #home{
     margin-left: 50px;
     float: left;
@@ -44,6 +56,8 @@ body{
    
     border: none;
 }
+
+/**************************************** Title Image ********************************************/
 #image-outer{
     height: 20%;
     width: 100%;
@@ -76,15 +90,12 @@ body{
 div > h2{
     letter-spacing: 2px;
     
-    font-size: 35px;
+    font-size: 50px;
     color: rgb(168, 125, 50);
 
 }
-#sign-up{
-    min-height: 800px;
-    background-color: rgb(245, 232, 206);
-    
-}
+
+/**************************************** Free ********************************************/
 #free-solo{
     display: block;
     overflow: auto;
@@ -102,20 +113,7 @@ div > h2{
     margin: 50px 0 50px 0;
     height: inherit;
 }
-#contact{
-    display: block;
-    overflow: auto;
-    min-height: 300px;
-    font-size: larger;
-    width: 100%;
-    background-color: #feebca;  
-}
-
- h3{
-    font-size: 50px;
-}
-
-
+/**************************************** What we do ********************************************/
 #what-we-do{
     display: block;
     overflow: auto;
@@ -179,11 +177,29 @@ div > h2{
     margin-bottom: 50px;
 }
 
+/**************************************** Get in touch ********************************************/
+#contact{
+    font-weight: bold;
+    display: block;
+    overflow: auto;
+    min-height: 300px;
+    font-size: larger;
+    width: 100%;
+    background-color: #feebca;  
+}
+
+
+
+/**************************************** Sign up ********************************************/
+
+
 #signup{
-    
-    line-height: 20px;
+    min-height: 350px;
+    background-color: rgb(245, 232, 206);
+    font-weight: bold;
     padding-left: 10px;
-    width: 100px;
+    width: 100%;
+    overflow: auto;
 }
 
 #signup > div{
@@ -195,6 +211,18 @@ div > h2{
     display: inline;
 }
 
+form > fieldset{
+    background-color: #feebca;
+   
+}
+
+#button{
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/*----------------------------------------- Solo/Group Pages ---------------------------------------*/
 #tab-main-image{
     float: left;
     height: 700px;
@@ -221,11 +249,8 @@ div > h2{
     position: relative;
 }
 
-form > fieldset{
-    background-color: #feebca;
-   
-}
 
+/****************************************Footer********************************************/
 .social-networks{
     text-align: center;
 }
