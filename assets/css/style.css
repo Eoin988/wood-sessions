@@ -8,12 +8,7 @@ p{
 h1{
     font-size: 60px;
 }
-h2{
-    -webkit-text-fill-color: rgb(175, 138, 68);
-    -webkit-text-stroke: 0.5px #000000;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
+
 h3{
     font-size: 45px;
 }
@@ -77,18 +72,21 @@ h3{
 }
 #head-text-shape{
     
-    width: relative;
-    height: relative;
-    
-    padding: 0 50px 0 50px;
+    padding: 5px 5px 5px 5px;
     bottom: 5%;
+    left: 10%;
     right: 10%;
     top: 5%;
     position: absolute;
-    overflow: inherit;
-    
-    
-    background-color: rgba(245, 232, 206, .6);
+    overflow:unset;
+}
+
+#head-text-shape > h2{
+    -webkit-text-fill-color: rgb(160, 104, 0);
+    -webkit-text-stroke: 0.1px #b4b1b1;
+    letter-spacing: 2px;
+    font-size: 50px;
+    background-color: rgba(3, 3, 3, 0.4);
 }
 /**************************************** Free ********************************************/
 #free-solo{
@@ -130,6 +128,12 @@ h3{
     background-color: #feebca;
 }
 
+#what-we-do > h2{
+    -webkit-text-fill-color: rgb(175, 138, 68);
+    -webkit-text-stroke: 0.5px #000000;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
 
 #what-we-do > div{
     display: inline-block;
