@@ -99,39 +99,53 @@
         <form method="post" action="https://formdump.codeinstitute.net/">
             <fieldset>
                 <legend>User Details</legend>
-            <div>
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" required>
-        
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" required>
-       
-            <label for="user-email">Email</label>
-            <input type="email" id="user-email" name="user-email" required>
-        </div>
-    </fieldset>
-       
-        <fieldset>
-            <legend>Slot Type</legend>
-        <div id="checkbox">
-            <label for="solo-checkbox">Solo</label>
-            <input id="solo-checkbox" type="checkbox" name="solo">
-            <label for="group-checkbox">Group</label>
-            <input id="group-checkbox" type="checkbox" name="group">
-        </div>
-    </fieldset>
+                <div>
+                    <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    </div>
 
-        <fieldset>
-            <legend>Time Slot</legend>
-        <div>
-            <label for="select-time"> Select a suitable time:</label>
-            <input type="datetime-local" id="select-time" name="select-time"  required>
-        </div>
-        
-        <div>
-            <input type="submit" id="button" value="Get Crafting!">
-        </div>
-    </fieldset>
+                    <div>
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname" name="surname" required>
+                    </div>
+
+                    <div>
+                    <label for="user-email">Email</label>
+                    <input type="email" id="user-email" name="user-email" required>
+                    </div>
+                </div>
+            </fieldset>
+       
+            <fieldset>
+                <legend>Slot Type</legend>
+                <div id="radio">
+                    <label for="beginner-radio">Beginner</label>
+                    <input id="beginner-radio" type="radio" name="experience">
+                    <label for="intermediate-radio">Intermediate</label>
+                    <input id="intermediate-radio" type="radio" name="experience">
+                    <label for="expert-radio">Expert</label>
+                    <input id="expert-radio" type="radio" name="experience">
+                </div>
+                <div id="checkbox">
+                    <label for="solo-radio">Solo</label>
+                    <input id="solo-radio" type="radio" name="type">
+                    <label for="group-radio">Group</label>
+                    <input id="group-radio" type="radio" name="type">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Time Slot</legend>
+                <div>
+                    <label for="select-time"> Select a suitable time:</label>
+                    <input type="datetime-local" id="select-time" name="select-time"  required>
+                </div>
+            
+                <div>
+                    <input type="submit" id="button" value="Get Crafting!">
+                </div>
+            </fieldset>
            
         </form>
        
