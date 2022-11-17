@@ -107,6 +107,86 @@ h3{
         border-radius: 5%;
     }
     }
+
+
+
+/**************************************** What we do ********************************************/
+#what-we-do{
+  
+    flex-wrap: wrap;
+    display: block;
+    overflow: auto;
+    padding-top: 40px;
+    min-height: 300px;
+    text-align: center;
+    width: 100%;
+    background-color: #feebca;
+}
+
+#what-we-do > h2{
+    -webkit-text-fill-color: rgb(175, 138, 68);
+    -webkit-text-stroke: 0.5px #000000;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+#what-we-do > div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#what-group{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding-top: 30px;
+    min-width: 300px;
+    max-width: 30%;
+   
+}
+
+.what-group-heading{
+    width: 90%;
+    line-height: 30px;
+}
+
+#what-guide{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding-top: 30px;
+    min-width: 300px;
+    max-width: 30%;
+   
+    margin: 0 auto;
+}
+
+.what-guide-heading{
+    width: 90%;
+    line-height: 30px;
+}
+
+#what-material{
+    
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding-top: 30px;
+    min-width: 300px;
+    max-width: 30%;
+}
+
+.what-material-heading{
+    
+    width: 90%;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
 /**************************************** Free ********************************************/
 #free-solo{
     flex-wrap: wrap;
@@ -133,79 +213,6 @@ h3{
     margin: 50px 0 50px 0;
     height: inherit;
 }
-
-
-/**************************************** What we do ********************************************/
-#what-we-do{
-    flex-wrap: wrap;
-    display: block;
-    overflow: auto;
-    padding-top: 40px;
-    min-height: 300px;
-    text-align: center;
-    width: 100%;
-    background-color: #feebca;
-}
-
-#what-we-do > h2{
-    -webkit-text-fill-color: rgb(175, 138, 68);
-    -webkit-text-stroke: 0.5px #000000;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
-
-#what-we-do > div{
-    display: inline-block;
-}
-#what-group{
-    text-align: center;
-    border: 0px solid black;
-    border-radius: 20px;
-    padding-top: 30px;
-    min-width: 300px;
-    max-width: 30%;
-    float: left;
-}
-
-.what-group-heading{
-    width: 90%;
-    line-height: 30px;
-}
-
-#what-guide{
-    text-align: center;
-    border: 0px solid black;
-    border-radius: 20px;
-    padding-top: 30px;
-    min-width: 300px;
-    max-width: 30%;
-   
-    margin: 0 auto;
-}
-
-.what-guide-heading{
-    width: 90%;
-    line-height: 30px;
-}
-
-#what-material{
-    float: right;
-    text-align: center;
-    border: 0px solid black;
-    border-radius: 20px;
-    padding-top: 30px;
-    min-width: 300px;
-    max-width: 30%;
-}
-
-.what-material-heading{
-    
-    width: 90%;
-    line-height: 30px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
 /**************************************** Get in touch ********************************************/
 #contact{
     font-weight: bold;
