@@ -1,7 +1,10 @@
+
+
 body{
     font-family: 'Rubik', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 p{
     font-weight: bold;
 }
@@ -26,27 +29,30 @@ h3{
     margin:40% 5% 0 5%;
 }
 
-.active{
-    border-bottom: 1px solid black;
-}
+
 
 #menu li{
     font-size: 150%;
     float: right;
     list-style-type:none;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
+}
+a{
+    text-decoration: none; 
 }
 #menu a:hover {
     border-bottom: 1px solid black;
+    text-decoration: underline;
 }
 
 #home:hover {
     border-bottom: 1px solid  rgb(168, 125, 50);
+    text-decoration: underline;
 }
 
-#menu a{
-    text-decoration: none;
+#menu a:active{
+    text-decoration: underline;
 }
 
 #menu, #choice, #home{
@@ -79,7 +85,7 @@ h3{
     position: absolute;
     overflow:unset;
    
-    width: relative;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -114,7 +120,7 @@ h3{
         -webkit-text-fill-color: rgb(160, 104, 0);
         -webkit-text-stroke: 0.1px #b4b1b1;
         letter-spacing: 2px;
-        font-size: 5vh 5vw;
+        
         background-color: rgba(3, 3, 3, 0.4);
         border-radius: 5%;
     }
