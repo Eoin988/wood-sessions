@@ -239,7 +239,7 @@ a{
     min-height: 300px;
     font-size: larger;
     width: 100%;
-    background-color: #feebca;  
+    background-color: #f5e8ce;  
 }
 
 
@@ -249,11 +249,12 @@ a{
 
 #signup{
     min-height: 350px;
-    background-color: rgb(245, 232, 206);
+    background-color: #feebca ;
     font-weight: bold;
     padding-left: 10px;
     width: 100%;
     overflow: auto;
+    padding-bottom: 10px;
 }
 
 #signup > div{
@@ -267,18 +268,49 @@ a{
 }
 
 form > fieldset{
-    background-color: #feebca;
+    background-color: #f5e8ce;
    
 }
 
 #button{
     font-size: 20px;
     font-style: italic;
+    background-color:  #feebca;
 }
 
 
 /*----------------------------------------- Solo/Group Pages ---------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    #tab-main-image{
+        float: left;
+        height: 500px;
+        width: 100%;  
+    }
+    #tab-head-text-shape{
+        display: inline-block;
+        
+        overflow-wrap: normal;
+        width: 100%;
+        height: inherit;
+        font-size: large;
+       
+        overflow: inherit;
+        padding:0 5px 0 5px;
+    }
+    #tab-image-outer{
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: rgba(245, 232, 206, .6);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
 #tab-main-image{
+    
     float: left;
     height: 700px;
     width: 50%;  
@@ -292,30 +324,31 @@ form > fieldset{
     bottom: 40%;
     top: 40%;
     overflow: inherit;
-    padding:0 50px 0 50px;
-    
-    
-    background-color: rgba(245, 232, 206, .6);
+    padding:0 25px 0 25px;
 }
 #tab-image-outer{
-    display: block;
+    display: inline-block;
     width: 100%;
     overflow: hidden;
     position: relative;
+    background-color: rgba(245, 232, 206, .6);
 }
-
+}
 
 /****************************************Footer********************************************/
-.social-networks{
+footer{
+    background-color: #feebca ;
+}
+#social-networks{
     text-align: center;
 }
-.social-networks > li{
+#social-networks > li{
     display: inline;
 }
 
-.social-networks i{
+#social-networks i{
     font-size: 106%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #514200;
 }
