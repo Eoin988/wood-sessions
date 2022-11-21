@@ -338,17 +338,23 @@ form > fieldset{
 /****************************************Footer********************************************/
 footer{
     background-color: #feebca ;
+    color: #514200;
 }
 #social-networks{
     text-align: center;
+    color: #514200;
+    
+   
+   
 }
 #social-networks > li{
     display: inline;
-}
-
-#social-networks i{
-    font-size: 106%;
     margin: 1%;
     padding: 5%;
-    color: #514200;
+  
+    font-size: 106%;
+
+  
+   
 }
+
