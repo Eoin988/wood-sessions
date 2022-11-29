@@ -5,7 +5,7 @@ From the site people can signup and book a slot, or express interest in taking p
 
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://https://github.com/Eoin988/wood-sessions/blob/main/assets/img/responsive.png)
 
 ## Features 
 
