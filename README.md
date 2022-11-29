@@ -5,60 +5,96 @@ From the site people can signup and book a slot, or express interest in taking p
 
 
 
-![Responsice Mockup](https://github.com/Eoin988/wood-sessions/blob/main/assets/img/responsive.png)
+![Responsice Mockup](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/responsive.png)
 
 ## Features 
 
 
-### Existing Features
+### Existing Features Index Page
 
 - __Navigation Bar__
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo/Home page, Solo and Group page aswell as the Signup, Contact and Free/volunteer sections. It is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/header.PNG)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with text overlay to allow the user to see exactly what this site is be applicable to. 
+  - This section introduces the user to Wood Sessions.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/main-info.PNG)
 
-- __Club Ethos Section__
+- __What We Do Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The what we do section will allow the user to see the benefits of joining wood session.
+  - This user will see the value of signing up for group or solo wood sessions. This should encourage the user to consider starting a new hobby or working on thier current hobby. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![What We Do](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/What-we-do.PNG)
 
-- __Meetup Times section__
+- __Free solo section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will make the user aware they can voulunteer to help out in return for free solo sessions. 
+ 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Free Solo](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/free.PNG)
+
+- __Sign Up Section__ 
+
+  - The sign up section will allow the user to sign up or book a slot.
+
+
+![Sign Up](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/sign-up.PNG)
+
+- __Get In Touch__ 
+
+  - The get in touch section includes all relevent info for contact and a link to the map location
+ 
+
+![Get in Touch](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/get-in-touch.PNG)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes links to the relevant social media sites for Wood Sessions. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/footer.PNG)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+### Existing Features Solo Page
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- __Solo Page Information__
 
-- __The Sign Up Page__
+  - The solo page will give some more information on solo sessions. 
+ 
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/solo-main-info.PNG)
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+- __Solo Page Sign Up__
+
+  - The solo page sign up will allow the user to only sign up for solo sessions.
+ 
+
+![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/solo-signup.PNG)
+
+### Existing Features Group Page
+
+- __Group Page Information__
+
+  - The group page will give some more information on group sessions. 
+ 
+
+![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/group-main-info.PNG)
+
+- __Group Page Sign Up__
+
+  - The group page sign up will allow the user to only sign up for group sessions.
+ 
+
+![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/group-signup.PNG)
+
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -66,25 +102,27 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- Add a schedule page or section so the user can see what time are partially booked or free.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Testing was carried out as each section was created or edited.
+A problem found was to add color to the header and footer. No fix for adding color to the header was found but partial footer color was added.
+Adding images in line with text proved problematic but the result is satisfactory.
+Once the site was deployed no images loaded. Many solutions had been tried before discovering the delay between pushing to git hub and the result having effect.
+Also once deployed the free and contact links on the solo and group pages no longer worked. 
+The alignment of items in the what we do section and the nav bar on the header proved problematic on smaller screens. Although the is still room for improvement in the nav bar alignment, the site is still functional on smaller screens.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Feoin988.github.io%2Fwood-sessions%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feoin988.github.io%2Fwood-sessions%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
@@ -96,10 +134,12 @@ This section should describe the process you went through to deploy the project 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select Deploy from a branch.
+  - Select Main in the branch drop down
+  - Once the main branch has been selected, press save and allow the site to be deployed
+  - Once complete and address is shown for the website.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here -  https://eoin988.github.io/wood-sessions/ 
 
 
 ## Credits 
@@ -111,13 +151,12 @@ You can break the credits section up into Content and Media, depending on what y
 ### Content 
 
 - The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- Instructions on how to create a time and date input on the Sign Up page was taken from [Specific Website](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the site are from This Open Source site[Pexels](https://www.pexels.com/search/woodwork/)
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
