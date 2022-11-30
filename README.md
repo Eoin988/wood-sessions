@@ -21,15 +21,16 @@ From the site people can signup and book a slot, or express interest in taking p
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly what this site is be applicable to. 
+  - The landing includes a photograph with text overlay to allow the user to see exactly who this site is aimed at. 
   - This section introduces the user to Wood Sessions.
 
 ![Landing Page](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/main-info.PNG)
 
 - __What We Do Section__
 
-  - The what we do section will allow the user to see the benefits of joining wood session.
-  - This user will see the value of signing up for group or solo wood sessions. This should encourage the user to consider starting a new hobby or working on thier current hobby. 
+  - The what we do section will allow the user to see what can be expected from joining wood sessions.
+  - This should encourage the user to consider starting a new hobby or working on their current hobby. 
+  - The user will easily be able to sign up for group or solo wood sessions. 
 
 ![What We Do](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/What-we-do.PNG)
 
@@ -57,7 +58,8 @@ From the site people can signup and book a slot, or express interest in taking p
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Wood Sessions. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  
 
 ![Footer](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/footer.PNG)
 
@@ -66,7 +68,7 @@ From the site people can signup and book a slot, or express interest in taking p
 
 - __Solo Page Information__
 
-  - The solo page will give some more information on solo sessions. 
+  - The solo page gives more information on solo sessions. 
  
 
 ![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/solo-main-info.PNG)
@@ -82,7 +84,7 @@ From the site people can signup and book a slot, or express interest in taking p
 
 - __Group Page Information__
 
-  - The group page will give some more information on group sessions. 
+  - The group page gives more information on group sessions. 
  
 
 ![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/group-main-info.PNG)
@@ -94,15 +96,9 @@ From the site people can signup and book a slot, or express interest in taking p
 
 ![Gallery](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/group-signup.PNG)
 
-
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Add a schedule page or section so the user can see what time are partially booked or free.
+- Add a schedule page or section so the user can see what time are partially booked or free, before looking to book a session.
 
 ## Testing 
 
@@ -126,11 +122,11 @@ The alignment of items in the what we do section and the nav bar on the header p
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+  - Some sizing issues are still present although everything can be still viewed on all screeen sizes.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -150,37 +146,12 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to create a time and date input on the Sign Up page was taken from [Specific Website](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
+-  The code used for the footer is moslty taken from the Love Running walkthrough project.
+- The code used to style the intro text on the index page was based on the information on [CSS-TRICKS](https://css-tricks.com/adding-stroke-to-web-text/)
+- Instructions on how to create a time and date input in the Sign Up sections was taken from [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The photos used on the site are from This Open Source site[Pexels](https://www.pexels.com/search/woodwork/)
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-
-`python3 -m http.server`
-
-
-
-
-issue getting what we do section in line
