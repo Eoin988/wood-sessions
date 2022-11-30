@@ -30,7 +30,7 @@ From the site people can signup and book a slot, or express interest in taking p
 
   - The what we do section will allow the user to see what can be expected from joining wood sessions.
   - This should encourage the user to consider starting a new hobby or working on their current hobby. 
-  - The user will easily be able to sign up for group or solo wood sessions. 
+  
 
 ![What We Do](https://github.com/Eoin988/wood-sessions/blob/main/assets/media/What-we-do.PNG)
 
@@ -150,6 +150,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The code used to style the intro text on the index page was based on the information on [CSS-TRICKS](https://css-tricks.com/adding-stroke-to-web-text/)
 - Instructions on how to create a time and date input in the Sign Up sections was taken from [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The Read me file structure was taken from the example Readme file. 
 
 ### Media
 
