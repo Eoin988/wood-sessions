@@ -154,5 +154,5 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the site are from This Open Source site[Pexels](https://www.pexels.com/search/woodwork/)
+- The photos used on the site are from [Pexels](https://www.pexels.com/search/woodwork/)
 
